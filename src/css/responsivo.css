@@ -98,7 +98,7 @@
     }
 
     .conteudo {
-        top: -12%;
+        top: -25%;
     }
 
     .conteudo .nome-personagem {
@@ -107,7 +107,7 @@
 
     .botoes {
         padding: 20px;
-        top: 0%;
+        top: -10%;
         background: none;
     }
 
