@@ -1,0 +1,117 @@
+@media (max-width: 769px) {
+    body{
+        background-color: #ff6700
+    };
+
+    main .personagem .imagem {
+        height: 85%;
+    }
+
+    .batatac {
+        background-image: url(".../imagens/batata.png");
+    }
+
+    .conteudo {
+        justify-content: flex-end;
+        left: 0;
+        top: -20%;
+        padding: 30px;
+    }
+
+    .conteudo .nome-personagem {
+        font-size: 36px;
+        color: #000000
+    }
+
+    .conteudo .descricao {
+        max-width: 500px;
+        color: #000000
+    }
+
+    .botoes {
+        flex-direction: row;
+        align-items: flex-end;
+        width: 100%;
+        padding: 30px;
+        background: none;
+    }
+
+    .botoes .botao{
+        background: none;
+    }
+
+    .botoes .botao img {
+        max-width: 60px;
+    }
+}
+
+@media (max-width: 425px) {
+    main .personagem .imagem {
+        height: 100%;
+    }
+
+    .hamburguerrdr {
+        background-image: url("../imagens/real-do-rei-responsivo.png");
+        background-size: cover;
+        height: 150px;
+        width: 230px;
+        margin-bottom: 25px;;
+    }
+
+    .batatac {
+        background-image: url("../imagens/batata-responsivo.png");
+        background-size: cover;
+        height: 156px;
+        width: 230px;
+        margin-bottom: 25px;;
+    }
+
+    .hamburguercr {
+        background-image: url("../imagens/chicken-rei.png");
+        background-size: cover;
+        height: 156px;
+        width: 230px;
+        margin-bottom: 25px;;
+    }
+
+    .hamburguerrs {
+        background-image: url("../imagens/rei-supremo-responsivo.png");
+        background-size: cover;
+        height: 157px;
+        width: 230px;
+        margin-bottom: 25px;;
+    }
+
+    .hamburguerr {
+        background-image: url("../imagens/realeza.png");
+        background-size: cover;
+        min-height: 198px;
+        max-width: 200px;
+        margin-bottom: 25px;;
+        
+    }
+
+    .conteudo .logo {
+        width: 170px;
+        height: 75px;
+        margin-bottom: 50px;
+    }
+
+    .conteudo {
+        top: -12%;
+    }
+
+    .conteudo .nome-personagem {
+        font-size: 40px;
+    }
+
+    .botoes {
+        padding: 20px;
+        top: 0%;
+        background: none;
+    }
+
+    .botoes .botao img {
+        max-width: 50px;
+    }
+}
