@@ -42,7 +42,7 @@ main .personagem .imagem {
 }
 
 .conteudo .nome-personagem {
-    color: #000000;
+    color: #ff6700;
     font-size: 65px;
     font-family: "Jolly Lodger";
     font-weight: 400;
@@ -50,7 +50,7 @@ main .personagem .imagem {
 }
 
 .conteudo .descricao {
-    color: #000000;
+    color: #ff6700;
     font-family: "Roboto Condensed";
     line-height: 28px;
     font-size: 30px;
@@ -75,12 +75,12 @@ main .personagem .imagem {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #ff6700;
 }
 
 .botoes .botao {
     border: none;
-    background: #000000;
+    background:  none   ;
     cursor: pointer;
     border-radius: 50%;
 }

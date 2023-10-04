@@ -1,6 +1,6 @@
 @media (max-width: 769px) {
     body{
-        background-color: #ff6700
+        background-color: #000000
     };
 
     main .personagem .imagem {
@@ -20,12 +20,12 @@
 
     .conteudo .nome-personagem {
         font-size: 36px;
-        color: #000000
+        color: #ff6700;
     }
 
     .conteudo .descricao {
         max-width: 500px;
-        color: #000000
+        color: #ff6700;
     }
 
     .botoes {
